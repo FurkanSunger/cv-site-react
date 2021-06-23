@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.dark-bg{
+    background-color: #222831;
+}
+
+.light-dark-bg{
+    background-color: #393E46;
+    color: #eeeeee;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.navBar{
+    border-right: 1px solid #505050;
+}
+
+@media screen and (max-height: 500px) {
+    .navBar{
+        min-height: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+}
+
+.header-prop{
+    border-right: 1px solid #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    background: url("../images/blob-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 3rem 1rem;
+    background: url("../images/blob-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.resume{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url("../images/circle-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #eeeeee;
+    padding: 3rem 1rem;
+}
+
+.portfolio{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #393E46;
+    color: #eeeeee;
+    padding: 3rem 1rem;
+}
+
+.portfolio-detail{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #393E46;
+    color: #eeeeee;
+    padding: 3rem 1rem;
+}
+
+.contact{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url("../images/polygon-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #eeeeee;
+    padding: 3rem 1rem;
+}
+
+.notfound{
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url("../images/stacked-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #eeeeee;
+    padding: 3rem 1rem;
+}
+
+.notfound-img{
+    height: 100%;
+    min-height: 100%;
+    background: url("../images/undraw_page_not_found_su7k.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width: 992px) {
+    .header-prop{
+        display: none;
+    }
+}
+
+
+
+/* 
+{
+    "id": 3,
+    "projectName": "Equsadinox Celebration",
+    "image": "https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "client": "Kazdal",
+    "url": "equinox-about-page.netlify.app",
+    "date": "16 June, 2021",
+    "tech": [
+        {
+            "id": "1",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "2",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "3",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "4",
+            "item": "Bootstrap"
+        }
+    ]
+},
+{
+    "id": 4,
+    "projectName": "EquinoxXXX Cesdsdebration",
+    "image": "https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "client": "Kazdal",
+    "url": "equinox-about-page.netlify.app",
+    "date": "16 June, 2021",
+    "tech": [
+        {
+            "id": "1",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "2",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "3",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "4",
+            "item": "Bootstrap"
+        }
+    ]
+},
+{
+    "id": 5,
+    "projectName": "Equinafslebration",
+    "image": "https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "client": "Kazdal",
+    "url": "equinox-about-page.netlify.app",
+    "date": "16 June, 2021",
+    "tech": [
+        {
+            "id": "1",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "2",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "3",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "4",
+            "item": "Bootstrap"
+        }
+    ]
+},
+{
+    "id": 6,
+    "projectName": "EqdfsXX Celebration",
+    "image": "https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "client": "Kazdal",
+    "url": "equinox-about-page.netlify.app",
+    "date": "16 June, 2021",
+    "tech": [
+        {
+            "id": "1",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "2",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "3",
+            "item": "Bootstrap"
+        },
+        {
+            "id": "4",
+            "item": "Bootstrap"
+        }
+    ]
+} */
